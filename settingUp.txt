@@ -1,0 +1,9 @@
+#refer to https://www.youtube.com/watch?v=FiOgz3nKpgk  for setting up
+
+all host records
+
+HOSTNAME: @ 192.30.252.153  A
+HOSTNAME: @ 192.30.252.154  A
+www	andyplusplus.github.io.   CNAME
+
+Github pages use CNAME file for redirections
