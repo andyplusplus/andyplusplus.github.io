@@ -1,0 +1,150 @@
+﻿/* BEGIN: IE Hacks */
+
+/* IE10 and below */
+.breadcrumb SPAN,
+.left-frame .s4-wpTopTable,
+.bottom-left-frame .s4-wpTopTable,
+.left-frame-r3 .s4-wpTopTable,
+.top-right-frame .s4-wpTopTable,
+.bottom-right-frame .s4-wpTopTable,
+.right-frame .s4-wpTopTable,
+#H2V2-Layout .top-frame,
+#H2V2-Layout .bottom-frame,
+#T7-Layout .left-frame,
+#T8-Layout .left-frame,
+#T4-Layout .center-frame,
+#P1-Layout .center-frame,
+#P1-Layout .top-frame,
+#P1-Layout .bottom-frame,
+#PDP-Layout .center-frame,
+#Preview-Layout .top-frame,
+#Preview-Layout .left-center-frame-two-column,
+#Preview-Layout .right-center-frame-two-column,
+#Preview-Layout .bottom-frame,
+#three-column-layout,
+#three-column-layout-r3,
+#top-three-columns,
+#four-column-layout,
+#EditModeTable,
+DIV#central_content,
+.ui-widget-content-rules,
+#MessageView
+{
+filter: none\0;
+}
+
+/* END: IE Hacks */
+
+#LoginCtrl .login-welcome-title,
+#LoginCtrl .login-link
+{
+background-image:url('/PublishingImages/user-login-v1.png');
+}
+
+.login-clicked
+{
+left:90px;
+}
+
+.login-help-clicked
+{
+left:307px;
+text-align:left;
+}
+
+.my-account-clicked 
+{
+left:307px;
+text-align:left;
+}
+
+.main-content-height
+{
+margin:5px 0px 0px 0px;
+}
+
+.breadcrumb SPAN,
+.left-frame .s4-wpTopTable,
+.right-frame .s4-wpTopTable,
+#T7-Layout .left-frame,
+#T8-Layout .left-frame,
+#T4-Layout .center-frame,
+#P1-Layout .center-frame,
+#P1-Layout .top-frame,
+#P1-Layout .bottom-frame,
+#top-three-columns,
+#PDP-Layout .center-frame,
+#EditModeTable,
+DIV#central_content
+{
+/* DO NOT THINK THIS IS NECESSARY ANYMORE 
+filter: none !important;
+background: none !important;
+*/
+}
+
+.ui-widget-content-rules
+{
+background-color:#ffffff !important;
+}
+
+div.hover 
+{
+border-left-width:1px;
+border-left-style:solid;
+border-right-width:1px;
+border-right-style:solid;
+border-bottom-width:1px;
+border-bottom-style:solid;
+}
+
+#top-three-columns
+{
+margin-bottom:20px;
+}
+
+#three-column-layout
+{
+clear:both;
+}
+
+.top-left-center-frame-three-column
+{
+float:left;
+width:32%;
+margin-right:10px;
+}
+
+.top-middle-center-frame-three-column
+{
+float:left;
+width:32%;
+margin-left:10px;
+margin-right:10px;
+}
+
+.top-right-center-frame-three-column
+{
+float:right;
+width:32%;
+margin-left:10px;
+}
+
+.tertiary-button
+{
+border:1px solid #7c7c7c;
+}
+
+/* CATEGORY TREE VIEW WEB PART */
+.wp-wrapper .category-tree-wp
+{	
+background-color: transparent;
+margin: 0px 0px 14px -15px; 
+}
+
+/* BEGIN: Search */
+.ms-searchref-main
+{
+width:198px;
+}
+/* END: Search */

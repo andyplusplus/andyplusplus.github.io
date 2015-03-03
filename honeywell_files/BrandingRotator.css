@@ -1,0 +1,104 @@
+﻿#slider 
+{   
+/* Height and Width are provided thru ISOCustom.css */  
+position:relative;     
+overflow:hidden;   
+}   
+  
+#mask-gallery 
+{   
+overflow:hidden;       
+}   
+  
+#gallery 
+{   
+/* Clear the list style */  
+list-style:none;   
+margin:0;   
+padding:0;   
+z-index:0;   
+/* width = total items multiply with #mask gallery width */  
+width:auto;   
+overflow:hidden;   
+}   
+  
+#gallery li 
+{   
+/* float left, so that the items are arrangged horizontally */  
+float:left;   
+}   
+  
+#mask-excerpt 
+{   
+/* Set the position */  
+position:absolute;     
+top:0;   
+right:0;   
+z-index:80;   
+
+/* width should be lesser than #slider width */  
+width:200px;   
+overflow:hidden;       
+}   
+	   
+#excerpt 
+{   
+/* Clear the list style */  
+list-style:none;   
+margin:0;   
+padding:0;   
+	   
+/* Set the position */  
+z-index:90;   
+position:absolute;   
+top:0;   
+left:0;   
+	   
+/* Set the style */  
+width:200px;   
+overflow:hidden;   
+}   
+  
+#excerpt li 
+{   
+padding:5px;   
+}
+
+#links
+{
+z-index:100;
+position:absolute;   
+bottom:0;   
+right:0;
+margin: 5px 5px;   
+}   
+  
+#links a
+{
+color:#ffffff !important;
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+/* Background Image is supplied from the configuration settings list and the ISOCustom.css file
+background-image : url(/_layouts/Honeywell.ACS.GWC/Images/silde-nav.png);
+*/
+}   
+  
+#links a.selected
+{
+background-position : 0 -24px;
+}   
+  
+.clear 
+{   
+clear:both;    
+}  

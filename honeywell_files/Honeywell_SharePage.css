@@ -1,0 +1,6 @@
+﻿#hwSocialMedia-Cont{float: right; margin-top:-15px;}
+#hwFacebook {background-image:url('/PublishingImages/SocialMediaIcon/hw_FB_Logo.jpg');width:16px;height:16px;float:left;margin-right:5px;}
+#hwTwitter  {background-image:url('/PublishingImages/SocialMediaIcon/Hw_Twitter_Logo.jpg');	width:16px;height:16px;	float:left;margin-right:5px;}
+#hwLinkedIn {background-image:url('/PublishingImages/SocialMediaIcon/Hw_Linked_Logo.jpg');width:16px;height:16px;float:left;}
+#hwGooglePlus {background-image:url('/PublishingImages/SocialMediaIcon/hw_Gplus_Logo.png');width:16px;height:16px;float:left;margin-right:5px;}
+.hwSocialMedia{	width:16px;height:16px;	text-indent:-9996px;overflow:hidden;display:block;cursor:pointer;} 
